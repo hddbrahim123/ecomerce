@@ -1,0 +1,8 @@
+.border_left{
+    border-left: 4px solid #516FD9;
+    box-shadow: 5px 5px 13px #f0ebeb -5px -5px 13px #ebe9e9;
+}
+.icon{
+    font-size: 32px;
+    color:#516FD9;
+}

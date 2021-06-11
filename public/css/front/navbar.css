@@ -1,0 +1,62 @@
+.page__wrap:before{
+    transition: .3s all ease-in-out;
+    background: rgba(0,0,0,0.6);
+    content: "";
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+.off__view .page__wrap{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    overflow: hidden;
+}
+.off__view .page__wrap:before{
+    opacity: 0.5;
+    visibility: visible;
+}
+.navbar .js__toggle{
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.mobile__view{
+    background-image: radial-gradient(circle at 20% 14%, rgba(27, 27, 27,0.05) 0%, rgba(27, 27, 27,0.05) 50%,rgba(126, 126, 126,0.05) 50%, rgba(126, 126, 126,0.05) 100%),radial-gradient(circle at 18% 51%, rgba(248, 248, 248,0.05) 0%, rgba(248, 248, 248,0.05) 50%,rgba(26, 26, 26,0.05) 50%, rgba(26, 26, 26,0.05) 100%),radial-gradient(circle at 29% 38%, rgba(160, 160, 160,0.05) 0%, rgba(160, 160, 160,0.05) 50%,rgba(212, 212, 212,0.05) 50%, rgba(212, 212, 212,0.05) 100%),linear-gradient(90deg, rgb(35, 74, 255),rgb(132, 161, 173));
+    width: 250px;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    transform: translateX(-110%);
+    box-shadow: -10px 0 20px  -10px rgb( 0 , 0 , 0 , 0.1);
+    transition: .3s all ease-in-out;
+}
+.off__view .mobile__view{
+    transform: translateX(0%);
+}
+.mobile__view__header{
+    padding: 20px;
+}
+.mobile__view__header i{
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+    cursor: pointer;
+}
+.mobile__view__body{
+    position: relative;
+    overflow-y: auto;
+    padding: 20px;
+}
+.mobile__view__body .navbar-nav .nav-item .nav-link{
+    color: white !important;
+    font-size: 25px;
+}

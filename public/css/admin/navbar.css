@@ -1,0 +1,5 @@
+.navbar{
+    grid-area: nav;
+    height: 70px;
+    box-shadow: 5px 5px 13px #f0ebeb -5px -5px 13px #ebe9e9;
+}

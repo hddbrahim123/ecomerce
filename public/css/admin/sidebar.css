@@ -1,0 +1,37 @@
+.sidebar{
+    grid-area: side;
+    background-image: radial-gradient(circle at 20% 14%, rgba(27, 27, 27,0.05) 0%, rgba(27, 27, 27,0.05) 50%,rgba(126, 126, 126,0.05) 50%, rgba(126, 126, 126,0.05) 100%),radial-gradient(circle at 18% 51%, rgba(248, 248, 248,0.05) 0%, rgba(248, 248, 248,0.05) 50%,rgba(26, 26, 26,0.05) 50%, rgba(26, 26, 26,0.05) 100%),radial-gradient(circle at 29% 38%, rgba(160, 160, 160,0.05) 0%, rgba(160, 160, 160,0.05) 50%,rgba(212, 212, 212,0.05) 50%, rgba(212, 212, 212,0.05) 100%),linear-gradient(90deg, rgb(35, 74, 255),rgb(132, 161, 173));
+}
+.sidebar__brand{
+    height: 70px;
+    /* border-bottom: 1px solid #b8b6b6; */
+}
+.sidebar__brand a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+}
+.sidebar__menu{
+    padding: 10px 20px;
+}
+.sidebar__menu h2{
+    font-size: 18px;
+    color: #302f2f;
+    padding-top: 10px;
+}
+.sidebar__link{
+    padding: 10px 20px;
+}
+.sidebar__link a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.sidebar__link i{
+    color: white;
+    padding-right: 5px;
+}
+.divider{
+    border-top: 1px solid #b8b6b6;
+}
